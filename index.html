@@ -44,6 +44,7 @@ header.top .asof{margin-left:auto;font-size:13px;color:var(--text-3)}
 .hero{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:end;padding:48px 0 40px;border-bottom:1px solid var(--line)}
 .hero h1{margin:0;font-size:clamp(30px,4.6vw,48px);line-height:1.12;font-weight:800;color:var(--ink);letter-spacing:-.01em;max-width:18ch}
 .hero p.lead{margin:16px 0 0;color:var(--text-2);max-width:52ch}
+.hero p.caveat{margin:14px 0 0;color:var(--text-3);font-size:14px;max-width:56ch}
 .tally{background:var(--navy);color:#fff;border-radius:16px;padding:28px 28px 24px;position:relative;overflow:hidden}
 .tally::after{content:"";position:absolute;right:-60px;top:-60px;width:180px;height:180px;border-radius:50%;background:rgba(100,207,233,.14)}
 .tally .k{font-size:14px;color:#B9EEFB}
@@ -151,18 +152,19 @@ footer a{color:var(--teal)}
   <path fill-rule="evenodd" clip-rule="evenodd" fill="#F12C3E" d="M216.177 360.668C208.884 360.71 202.926 360.753 196.296 360.054C187.212 359.099 178.515 354.66 174.312 348.073C167.801 337.875 168.9 321.474 168.585 305.521C168.289 290.128 168.051 155.812 168.051 153.712C168.051 147.744 168.155 138.553 168.249 132.192C168.466 117.112 166.531 98.5012 173.93 89.2766C176.897 85.577 182.379 82.6099 188.249 81.5385C203.069 78.834 229.4 78.2723 251.607 77.9762C274.696 77.6649 309.742 79.7955 317.529 80.2809C319.409 80.3969 323.322 80.5068 323.252 81.8163C323.176 83.2052 319.76 83.5867 318.133 83.9652C311.463 85.5251 237.205 101.361 224.611 105.778C211.277 110.458 207.883 117.851 206.9 135.76C206.305 146.578 205.127 287.451 205.426 297.991C205.755 309.63 206.479 317.191 213.606 323.339C216.751 326.052 221.253 329.187 226.363 331.867C235.221 336.51 244.614 341.666 250.029 344.807C250.059 344.825 250.093 344.847 250.127 344.862C250.468 345.063 250.795 345.253 251.103 345.436C252.437 346.254 254.788 347.856 256.915 350.042C258.67 351.843 260.261 354.032 260.969 356.513C261.396 357.771 261.787 359.239 262.135 360.863C250.105 361.043 227.163 360.607 216.177 360.668Z"></path>
 </svg>
     <span class="brand">Wall Street English Learning &amp; Development</span>
-    <span class="asof">October 2026</span>
+    <span class="asof">November 2026</span>
   </header>
 
   <div class="hero">
     <div>
-      <h1>The onboarding redesign gives our centers back <span id="heroHours">19,700</span> hours a year</h1>
-      <p class="lead">Onboarding across the five role paths dropped from 190 to 82.5 hours, a 56.6% cut, while maintaining the same learning objectives. The average new hire now reaches the floor about <span id="heroDays">3.4</span> working days sooner.</p>
+      <h1>The onboarding redesign gives our centers back <span id="heroHours">17,200</span> hours a year</h1>
+      <p class="lead">Onboarding across the five role paths dropped from 190 to about 91 hours, a 52% cut, with the same learning objectives. The average new hire now reaches the floor about <span id="heroDays">3.0</span> working days sooner.</p>
+      <p class="caveat">These are approximate, conservative figures based on estimates. The instructor-led part of onboarding is being redesigned and optimised, and we will review these figures in depth. The leadership deck rounds this down to about €200k (about 16,500 hours).</p>
     </div>
     <div class="tally" aria-live="polite">
       <div class="k">Estimated annual value</div>
-      <div class="big" id="totalVal">€247k</div>
-      <div class="hrs" id="totalHrs">19,700 hours of new-hire time</div>
+      <div class="big" id="totalVal">€215k</div>
+      <div class="hrs" id="totalHrs">17,200 hours of new-hire time</div>
       <div class="split" id="split"></div>
     </div>
   </div>
@@ -178,7 +180,7 @@ footer a{color:var(--teal)}
       </div>
       <div class="lever">
         <h3>Redesigning manager touchpoints</h3>
-        <p>Before, almost every module had its own instructor-led follow-up. Now there's one observation and feedback session at the end of each path, with a role-play and a performance check against the role.</p>
+        <p>Before, almost every module had its own instructor-led follow-up. Now all in-person time with the manager is grouped into about 8 hours per path (about 2.5 hours for Service Managers and Center Directors), ending in a role-play and a performance check. This part is being redesigned.</p>
       </div>
       <div class="lever">
         <h3>Refactoring existing training</h3>
@@ -188,10 +190,10 @@ footer a{color:var(--teal)}
   </section>
   <section>
     <h2>Where the hours come from</h2>
-    <p class="sub">Onboarding hours per path, March 2026 agenda against the September 2026 redesign.</p>
+    <p class="sub">Onboarding hours per path, March 2026 agenda against the November 2026 update.</p>
     <div class="bars" id="bars"></div>
-    <div class="legend"><span><i style="background:var(--before)"></i>March 2026</span><span><i style="background:var(--after)"></i>September 2026</span></div>
-    <p class="total-line">All five paths together: <b>190 → 82.5 hours</b>, a 56.6% cut.</p>
+    <div class="legend"><span><i style="background:var(--before)"></i>March 2026</span><span><i style="background:var(--after)"></i>November 2026</span></div>
+    <p class="total-line">All five paths together: <b>190 → about 91 hours</b>, a 52% cut, with the same learning objectives.</p>
   </section>
 
   <section>
@@ -205,7 +207,7 @@ footer a{color:var(--teal)}
           <tr><td class="label"><label for="turnover">Annual turnover</label></td><td><span class="field"><input id="turnover" type="number" min="0" max="100" step="1"><span>%</span></span></td><td class="basis">Global average set for this estimate</td></tr>
           <tr><td class="label"><label for="cost">Loaded hourly cost</label></td><td><span class="field"><span>€</span><input id="cost" type="number" min="0" step="0.5"><span>/ hour</span></span></td><td class="basis">Public job postings in eight markets, €7–13 gross, plus employer costs</td></tr>
           <tr class="derived"><td class="label">New hires a year</td><td class="val" id="dHires">730</td><td class="basis">Headcount × turnover</td></tr>
-          <tr class="derived"><td class="label">Hours saved per hire</td><td class="val" id="dPer">27.0 h</td><td class="basis">Weighted by the hire mix below</td></tr>
+          <tr class="derived"><td class="label">Hours saved per hire</td><td class="val" id="dPer">23.6 h</td><td class="basis">Weighted by the hire mix below</td></tr>
         </tbody>
       </table>
     </div>
@@ -216,7 +218,7 @@ footer a{color:var(--teal)}
       <table>
         <thead><tr><th>Path</th><th>Share of new hires</th><th>Hours saved per hire</th><th>New hires a year</th><th>Hours freed a year</th></tr></thead>
         <tbody id="mixBody"></tbody>
-        <tfoot><tr class="derived"><td class="label">All paths</td><td class="val" id="mixSum">100%</td><td class="val" id="mixPer">27.0 h</td><td class="val" id="mixHires">730</td><td class="val" id="mixHours">19,700</td></tr></tfoot>
+        <tfoot><tr class="derived"><td class="label">All paths</td><td class="val" id="mixSum">100%</td><td class="val" id="mixPer">23.6 h</td><td class="val" id="mixHires">730</td><td class="val" id="mixHours">17,200</td></tr></tfoot>
       </table>
     </div>
     <p class="warn" id="mixWarn" hidden>The shares add up to <b id="mixWarnVal"></b>. Adjust them to 100% for a clean estimate.</p>
@@ -230,18 +232,18 @@ footer a{color:var(--teal)}
 
       <div class="extra" id="x-trainer">
         <div class="extra-head">
-          <div class="t"><h3>Trainer and manager time</h3><p>Follow-up sessions after each module are now one observation session per path</p></div>
+          <div class="t"><h3>Trainer and manager time</h3><p>Follow-up sessions after each module are now one block of instructor-led time per path</p></div>
           <div class="amt" id="aTrainer">€79k</div>
           <button class="toggle" type="button" data-x="trainer" aria-pressed="false">Add to total</button>
           <button class="more" type="button" aria-expanded="false" aria-controls="b-trainer" aria-label="Show details for trainer and manager time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></button>
         </div>
         <div class="extra-body" id="b-trainer">
-          <p>In March 2026, nearly every module came with an instructor-led follow-up in center. All training is now self-serve, and that time moves into one observation and feedback session at the end of each path. Every follow-up removed also saves a trainer, Service Manager or Center Director hour, often the most expensive hours in the center.</p>
+          <p>In March 2026, nearly every module came with an instructor-led follow-up in center. E-modules are now self-serve, and in-person time is grouped into about 8 hours of instructor-led sessions and observation per path (about 2.5 hours for Service Managers and Center Directors). That segment is being redesigned, so this figure will change. Every follow-up removed also saves a trainer, Service Manager or Center Director hour, often the most expensive hours in the center.</p>
           <div class="mini">
             <label>Trainer hours saved per hire<span class="field"><input id="trainerHrs" type="number" min="0" step="0.5"><span>h</span></span></label>
             <label>Trainer or manager cost<span class="field"><span>€</span><input id="trainerCost" type="number" min="0" step="0.5"><span>/ hour</span></span></label>
           </div>
-          <span class="flag">Estimate until the March agenda's instructor-led minutes are counted</span>
+          <span class="flag">To be reviewed once the instructor-led redesign lands</span>
         </div>
       </div>
 
@@ -277,7 +279,7 @@ footer a{color:var(--teal)}
 
   <footer>
     <p>Most of this value sits in franchisee and territory P&amp;Ls, not in Wall Street English International's own costs. Read it as time and value returned to the network, not as a central budget saving.</p>
-    <p>Hours: Onboarding training agenda, March 2026 (QN-04-D27-V2) and September 2026 redesign. Hourly cost: public Wall Street English and market job postings in Italy, Spain, Korea, Vietnam, Thailand, Saudi Arabia and Chile, converted at approximate 2026 rates. Modules still in production have no time yet and aren't counted.</p>
+    <p>Hours: Onboarding training agenda, March 2026 (QN-04-D27-V2) and November 2026 update (instructor-led time approximate). Hourly cost: public Wall Street English and market job postings in Italy, Spain, Korea, Vietnam, Thailand, Saudi Arabia and Chile, converted at approximate 2026 rates. Modules still in production have no time yet and aren't counted.</p>
   </footer>
 </div>
 
@@ -292,11 +294,11 @@ footer a{color:var(--teal)}
   function save(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){} }
 
   var PATHS = [
-    {k:"teacher", n:"Teacher", s:"", b:49.4, a:22.3},
-    {k:"coach", n:"Coach", s:"", b:58.8, a:21.6},
-    {k:"consultant", n:"Sales Consultant", s:"", b:47.2, a:20.9},
-    {k:"sm", n:"Service Manager", s:"After the Teacher and Coach paths", b:21.8, a:9.4},
-    {k:"cd", n:"Center Director", s:"After the Sales Consultant path", b:12.8, a:8.3}
+    {k:"teacher", n:"Teacher", s:"", b:49.4, a:26.3},
+    {k:"coach", n:"Coach", s:"", b:58.8, a:26.1},
+    {k:"consultant", n:"Sales Consultant", s:"", b:47.2, a:24.4},
+    {k:"sm", n:"Service Manager", s:"After the Teacher and Coach paths", b:21.8, a:7.4},
+    {k:"cd", n:"Center Director", s:"After the Sales Consultant path", b:12.8, a:7.3}
   ];
   var max = 58.8;
   document.getElementById("bars").innerHTML = PATHS.map(function(p){
